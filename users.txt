@@ -1,0 +1,4 @@
+john:users:topsecretpass:/bin/bash
+michael:cybersecurity:12312412:/bin/sh
+root:users:JuJJaDDE32:/bin/bash
+jack:administrator:vu@!#zvz:/bin/sh
