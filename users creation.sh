@@ -18,7 +18,7 @@ do
     group=$(echo $line | cut -d ":" -f2)
     password=$(echo $line | cut -d ":" -f3)
     shell=$(echo $line | cut -d ":" -f4)
-    ssl_password=`openssl passwd -crypt $password`
+    ssl_password=`openssl passwd -1 $password`
     echo "Имя пользователя: $username | Группа: $group | Пароль: $password | Оболочка: $shell"
     
     case $next in  
